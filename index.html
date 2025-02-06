@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>short url</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>Acortador de URL</h1>
+    </header>
+
+    <main class="container">
+        <label for="url">Ingrese una URL</label>
+        <input type="text" name="url" id="url" placeholder="url">
+        <label for="shorturl">URL acortada</label>
+        <div id="result">
+            <input type="text" name="shorturl" id="shorturl" placeholder="url acortada" readonly>
+            <button id="copy">Copiar</button>
+        </div>
+        <button type="submit" id="send">Acortar</button>
+    </main>
+    
+    <footer>
+        <p>Desarrollado por <a href="https://github.com/Facundo-Chiappero" target="_blank">@facundo chiappero</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
